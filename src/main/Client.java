@@ -84,7 +84,7 @@ public class Client extends JFrame{
 	
 	//close the streams and sockets
 	private void closeCrap() {
-		showMessage("\n closing the crap down...");
+		showMessage("\n closing everything...");
 		ableToType(false);
 		try {
 			output.close();
