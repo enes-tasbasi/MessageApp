@@ -39,7 +39,7 @@ public class Server extends JFrame{
 	//set up and run the sever
 	public void startRunning() {
 		try {
-			server = new ServerSocket(6789, 100);
+			server = new ServerSocket(12975, 100);
 				while(true) {
 					try {
 						waitForConnection();
